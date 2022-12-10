@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 90vh;
+      font-family: 'Montserrat', sans-serif
+}
+.noteContainer{
+      max-width: 700px;
+}
+
+.noteContainer h5 {
+      font-weight: 400;
+      font-size: 1rem;
+
+}
+.notesHeading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      border-bottom: 1px solid black;
+}
+.notesHeading h2{
+      font-size: 3rem;
+}
+.notesHeading p{
+      font-size: .8rem;
+}

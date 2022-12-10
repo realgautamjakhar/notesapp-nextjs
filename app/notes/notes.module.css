@@ -1,0 +1,48 @@
+.container{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      font-family: 'Montserrat', sans-serif
+}
+
+.notescontainer{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(auto,300px));
+      gap: 2rem;
+}
+
+.Notes{
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: black;
+}
+.Notes:hover {
+      transform: scale(1.02);
+      box-shadow: 0px 10px 15px -3px rgba(255,0,0,0.1);
+}
+.Notes h2 {
+      font-size: 2rem
+}
+.Notes h5{
+      font-size: 1rem;
+      font-weight: 400;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+}
+.Notes p{
+      font-size: .8rem;
+}
+
+.container input {
+      width: fit-content;
+}
+.container button {
+      width: fit-content;
+}
